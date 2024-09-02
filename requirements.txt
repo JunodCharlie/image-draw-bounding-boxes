@@ -1,1 +1,4 @@
 common-code[test] @ git+https://github.com/swiss-ai-center/common-code.git@main
+pillow~=10.4.0
+pip~=22.0.2
+setuptools~=59.6.0
