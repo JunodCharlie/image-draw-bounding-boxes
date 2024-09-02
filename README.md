@@ -18,3 +18,5 @@ Where the values in "left", "top", "width" and "height" are given in pixels.
 The bounding boxes are drawn as red unfilled rectangles at the coordinates specified by the 4 fields above.
 
 The JSON file may contain additional fields; they will be ignored.
+
+_Check the [related documentation](https://docs.swiss-ai-center.ch/reference/services/image-draw-bounding-boxes) for more information._
