@@ -147,11 +147,11 @@ async def lifespan(app: FastAPI):
         await service_service.graceful_shutdown(my_service, engine_url)
 
 
-api_description = """This microservice draws boxes on an image. It is intended to work with the
+api_description = """This service draws boxes on an image. It is intended to work with the
 text recognition OCR service. The bounding boxes are passed in a JSON file that corresponds to the output of
 the text recognition service.
 """
-api_summary = """This microservice draws boxes on an image. It is intended to work with the
+api_summary = """This service draws boxes on an image. It is intended to work with the
 text recognition OCR service.
 """
 
